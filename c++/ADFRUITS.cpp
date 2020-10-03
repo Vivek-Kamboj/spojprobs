@@ -60,12 +60,13 @@ string scs(string X, string Y, int m, int n)
 }
 
 int main() {
-	string str1,str2;
+	string str1,str2,str3 = "The End!";
 	while(cin>>str1)
 	{
 		cin>>str2;
 		cout<<scs(str1,str2,str1.size(),str2.size())<<"\n";
 	}
+	cout << str3;
 	
 	return 0;
 }
